@@ -1,3 +1,260 @@
-html{
-    background-color: brown;
+*{
+    margin: 0;
+    padding: 0;
 }
+
+header{
+    height: 85px;
+    padding: 1% 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    background-color: #13555C;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #239BA8;
+}
+
+main{
+    padding: 0 5%;
+}
+
+footer{
+    background-color: #13555C;
+}
+/* --------------------------------HEADER--------------------------------- */
+.picture-header img{
+    cursor: pointer;
+    height: 70px;
+    width: auto;
+    transition: all 0.3s;
+}
+
+.picture-header img:hover{
+    transform: scale(1.2);
+}
+
+.ul-nav{
+    display: inline-block;
+    font-size: 1.5em;
+    list-style: none;
+}
+
+.li-nav{
+    display: inline-block;
+    padding: 0 20px;
+    
+}
+
+.a-li-ul-nav{
+    text-decoration: none;
+    color: #73D4E1; 
+} 
+
+.li-nav:hover{
+    transform: scale(1.1);
+}
+
+.button-header{
+    font-weight: 700;
+    padding: 9px 25px;
+    background: #eceff1;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.button-header:hover{
+    transform: scale(1.1);
+}
+/* ---------------------------------------------------------------------- */
+/* -------------------------- DIVISION DE EL MAIN Y SIDEBAR--------------------------- */
+.container-main-aside{
+    display: flex;
+    margin-top: 5em;
+    margin-right: 30em;
+}
+
+.sidebar {
+    padding: 0 5%;
+    width: 20%;
+    position: fixed;
+    top: 8em;
+    right: 0;
+}
+
+.h1-sidebar{
+    text-align: center;
+    padding: .5em 0;
+    color: #13555C;
+}
+
+.instagram-media{
+    width: 30% !important;
+    margin-left: 2em !important;
+    border-radius: 2em !important;
+}
+/* ---------------------------------------------------------------------- */
+/* ----------------------------INICIO------------------------------------- */
+.container-inicio{
+    display: flex;
+    padding: 5%;
+}
+
+.contenido-letra-inicio{
+    padding: 5%;
+    text-align: center;
+}
+
+.h1-inicio{
+    margin-bottom: 1.5em;
+    color: #2F575C;
+    font-size: 3em;
+}
+
+.p-inicio{
+    font-size: 1.5em;
+    text-shadow: 1px 1px 2px hsl(0, 0%, 0%);
+    color: rgb(255, 255, 255);
+}
+
+.picture-inicio{
+    margin-top: 6%;
+    display: flex;
+    align-items: center;
+    padding: 5%;
+}
+
+.picture-inicio img{
+    width: 15em;
+}
+/* ---------------------------------------------------------------------- */
+/* ------------------------------SOBRE MI-------------------------------- */
+.container-sobre-mi{
+    display: flex;
+}
+
+.picture-sobre-mi img{
+    width: 18em;
+    border-radius: 2em;
+}
+
+.picture-sobre-mi{
+    padding: 10%;
+    display: flex;
+    align-items: center;
+}
+
+.contenido-letra-sobre-mi{
+    padding: 5%;
+    text-align: center;
+}
+
+.h1-sobre-mi{
+    margin-bottom: 1.5em;
+    color: #2F575C;
+    font-size: 3em;
+}
+
+.p-sobre-mi{
+    font-size: 1.5em;
+    text-shadow: 1px 1px 2px hsl(0, 0%, 0%);
+    color: rgb(255, 255, 255);
+}
+/* ------------------------------------------------------------------------------ */
+/* ------------------------------CONTACTO DIRECTO-------------------------------- */
+.container-contacto-directo{
+    padding: 5%;
+    text-align: center;
+}
+
+.h1-contacto-directo{
+    margin-bottom: 1.5em;
+    color: #2F575C;
+    font-size: 3em;
+}
+
+.p-contacto-directo{
+    font-size: 1.5em;
+    text-shadow: 1px 1px 2px hsl(0, 0%, 0%);
+    color: rgb(255, 255, 255);
+}
+
+.button-contacto-directo{
+    font-weight: 700;
+    padding: 9px 25px;
+    background: rgb(31, 90, 92);
+    color: #eceff1;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+}
+
+.button-contacto-directo:hover{
+    transform: scale(1.3);
+}
+
+.picture-contacto-directo{
+    
+    height: 300px;
+}
+
+.a-button-picture{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.picture-contacto-directo img{
+    display: inline-block;
+    padding-top: 45%;
+    padding-left: 10%;
+    width: 8em;
+}
+/* ----------------------------------------------------------------------- */
+/* ------------------------------MIS REDES-------------------------------- */
+.container-mis-redes{
+    padding: 5%;
+    text-align: center;
+}
+
+.h1-mis-redes{
+    margin-bottom: 1.5em;
+    color: #2F575C;
+    font-size: 3em;
+}
+
+.picture-mis-redes img{
+    cursor: pointer;
+    height: 70px;
+    width: auto;
+    transition: all 0.3s;
+}
+
+.picture-mis-redes img:hover{
+    transform: scale(1.2);
+}
+
+.picture-mis-redes a{
+    padding: 0 20px;
+}
+/* ----------------------------------------------------------------------- */
+/* ------------------------------F--OOTER--------------------------------- */
+.p-footer{
+    margin: 10% 0 0 0;
+    padding: .5%;
+    text-align: center;
+    font-size: 1em;
+    text-shadow: 1px 1px 2px hsl(0, 0%, 0%);
+    color: rgb(0, 255, 234); 
+}
+
